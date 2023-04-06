@@ -20,6 +20,11 @@ class Can_Data():
                                 0, 0, 0, 0, 0, 0, 0, 0,
                                 0, 0, 0, 0, 0, 0, 0, 0 ]
 
+    def return_original_value(self, physical_value, offset, resolution):
+        raw_value = (physical_value - offset) / resolution # 原始值 = （物理值 - 偏移量） / 精度
+        print(raw_value)
+        # return raw_value
+
     def return_bin_value(self, original_value, bit_length):
         """
         输入CAN信号的原始值和位宽，返回一个转换后的二进制值。\n
