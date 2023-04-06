@@ -79,9 +79,12 @@ class Can_Data():
 if __name__ == '__main__':
 
     a = Can_Data()
+
     b = a.return_bin_value(original_value=255, bit_length=8)
-    print(type(b),b)
+    print(type(255),255,' ---> ',type(b),b)
+
     c = a.return_bin_list(start_bit=7, bit_length=8 ,bin_value=b)
-    print(type(c),c)
+    print(type(b),b,' ---> ',type(c),c)
+
     d = a.return_can_data_list(c)
-    print(type(d),d)
+    print(type(c),c,' ---> ',type(d),d)
