@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time ： 2023/4/4 18:18
 # @Auth ： JeremyChim
-# @File ：CAN-Script.py
+# @File ：Can_Script.py
 # @IDE ：PyCharm
 # @Github ：https://github.com/Mavisclm/CAN-Script
 
