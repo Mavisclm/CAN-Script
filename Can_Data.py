@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time ： 2023/4/4 18:18
 # @Auth ： JeremyChim
-# @File ：CAN-Script.py
+# @File ：Can_Script.py
 # @IDE ：PyCharm
 # @Github ：https://github.com/Mavisclm/CAN-Script
 
@@ -61,14 +61,14 @@ class Can_Data():
                                           )
         # print(raw_value)
 
-        bin_value = self.return_bin_value(raw_value=raw_value,
-                                          bit_length=self.bit_length
+        bin_value = self.return_bin_value(raw_value = raw_value,
+                                          bit_length = self.bit_length
                                           )
         # print(bin_value)
 
         bin_list = self.return_bin_list(bin_value = bin_value,
-                                        start_bit=self.start_bit,
-                                        bit_length=self.bit_length)
+                                        start_bit = self.start_bit,
+                                        bit_length = self.bit_length)
         # print(bin_list)
 
         can_data_list = self.return_can_data_list(bin_list = bin_list,
